@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/tantham-tanthuvanit/projects/classical-mechanics-sim/build/_deps/raylib-subbuild/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/cms.dir/link.d CMakeFiles/cms.dir/src/main.cpp.o CMakeFiles/cms.dir/src/simulation.cpp.o -o cms  /usr/local/lib/libraylib.a -lm /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so

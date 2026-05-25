@@ -1,0 +1,5 @@
+/home/tantham-tanthuvanit/projects/classical-mechanics-sim/build/CMakeFiles/cms.dir
+/home/tantham-tanthuvanit/projects/classical-mechanics-sim/build/CMakeFiles/package.dir
+/home/tantham-tanthuvanit/projects/classical-mechanics-sim/build/CMakeFiles/package_source.dir
+/home/tantham-tanthuvanit/projects/classical-mechanics-sim/build/CMakeFiles/edit_cache.dir
+/home/tantham-tanthuvanit/projects/classical-mechanics-sim/build/CMakeFiles/rebuild_cache.dir
