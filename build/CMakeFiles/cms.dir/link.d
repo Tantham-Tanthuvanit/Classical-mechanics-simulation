@@ -4,6 +4,7 @@ cms: \
   /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o \
   CMakeFiles/cms.dir/src/main.cpp.o \
   CMakeFiles/cms.dir/src/simulation.cpp.o \
+  CMakeFiles/cms.dir/src/utils/physics.cpp.o \
   /usr/local/lib/libraylib.a \
   /usr/lib/x86_64-linux-gnu/libX11.so \
   /usr/lib/x86_64-linux-gnu/libXext.so \
@@ -47,6 +48,8 @@ cms: \
 CMakeFiles/cms.dir/src/main.cpp.o:
 
 CMakeFiles/cms.dir/src/simulation.cpp.o:
+
+CMakeFiles/cms.dir/src/utils/physics.cpp.o:
 
 /usr/local/lib/libraylib.a:
 

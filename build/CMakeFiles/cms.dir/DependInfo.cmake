@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/tantham-tanthuvanit/projects/classical-mechanics-sim/src/main.cpp" "CMakeFiles/cms.dir/src/main.cpp.o" "gcc" "CMakeFiles/cms.dir/src/main.cpp.o.d"
   "/home/tantham-tanthuvanit/projects/classical-mechanics-sim/src/simulation.cpp" "CMakeFiles/cms.dir/src/simulation.cpp.o" "gcc" "CMakeFiles/cms.dir/src/simulation.cpp.o.d"
+  "/home/tantham-tanthuvanit/projects/classical-mechanics-sim/src/utils/physics.cpp" "CMakeFiles/cms.dir/src/utils/physics.cpp.o" "gcc" "CMakeFiles/cms.dir/src/utils/physics.cpp.o.d"
   "" "cms" "gcc" "CMakeFiles/cms.dir/link.d"
   )
 

@@ -10,5 +10,11 @@
   "command": "/usr/bin/c++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP   -o CMakeFiles/cms.dir/src/simulation.cpp.o -c /home/tantham-tanthuvanit/projects/classical-mechanics-sim/src/simulation.cpp",
   "file": "/home/tantham-tanthuvanit/projects/classical-mechanics-sim/src/simulation.cpp",
   "output": "CMakeFiles/cms.dir/src/simulation.cpp.o"
+},
+{
+  "directory": "/home/tantham-tanthuvanit/projects/classical-mechanics-sim/build",
+  "command": "/usr/bin/c++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP   -o CMakeFiles/cms.dir/src/utils/physics.cpp.o -c /home/tantham-tanthuvanit/projects/classical-mechanics-sim/src/utils/physics.cpp",
+  "file": "/home/tantham-tanthuvanit/projects/classical-mechanics-sim/src/utils/physics.cpp",
+  "output": "CMakeFiles/cms.dir/src/utils/physics.cpp.o"
 }
 ]

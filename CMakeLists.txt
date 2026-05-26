@@ -9,6 +9,8 @@ find_package(raylib REQUIRED)
 add_executable(cms
 	src/main.cpp
 	src/simulation.cpp
+
+	src/utils/physics.cpp
 )
 
 target_link_libraries(cms

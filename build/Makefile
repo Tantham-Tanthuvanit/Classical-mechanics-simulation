@@ -197,6 +197,30 @@ src/simulation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cms.dir/build.make CMakeFiles/cms.dir/src/simulation.cpp.s
 .PHONY : src/simulation.cpp.s
 
+src/utils/physics.o: src/utils/physics.cpp.o
+.PHONY : src/utils/physics.o
+
+# target to build an object file
+src/utils/physics.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cms.dir/build.make CMakeFiles/cms.dir/src/utils/physics.cpp.o
+.PHONY : src/utils/physics.cpp.o
+
+src/utils/physics.i: src/utils/physics.cpp.i
+.PHONY : src/utils/physics.i
+
+# target to preprocess a source file
+src/utils/physics.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cms.dir/build.make CMakeFiles/cms.dir/src/utils/physics.cpp.i
+.PHONY : src/utils/physics.cpp.i
+
+src/utils/physics.s: src/utils/physics.cpp.s
+.PHONY : src/utils/physics.s
+
+# target to generate assembly for a file
+src/utils/physics.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cms.dir/build.make CMakeFiles/cms.dir/src/utils/physics.cpp.s
+.PHONY : src/utils/physics.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -214,6 +238,9 @@ help:
 	@echo "... src/simulation.o"
 	@echo "... src/simulation.i"
 	@echo "... src/simulation.s"
+	@echo "... src/utils/physics.o"
+	@echo "... src/utils/physics.i"
+	@echo "... src/utils/physics.s"
 .PHONY : help
 
 

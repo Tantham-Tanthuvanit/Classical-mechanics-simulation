@@ -5,11 +5,14 @@
 #include <cstdint>
 #include <iostream>
 #include <vector>
+#include <algorithm>
 
 #define WIDTH 1280
 #define HEIGHT 720
 
-#define G 9.8
+const double pixelConstant = 100;
+
+#define G 9.8 * pixelConstant
 
 typedef uint8_t uint8;
 typedef uint16_t uint16;
@@ -17,8 +20,8 @@ typedef uint32_t uint32;
 typedef uint64_t uint64;
 
 struct object {
-	uint8 width;
-	uint8 height;
+	uint16 width;
+	uint16 height;
 
 	double x;
 	double y;
@@ -35,7 +38,7 @@ struct object {
 	double roation;
 	float angularVel;
 
-	bool isStatic;
+	bool isStatic = false;
 
 	Color color = RAYWHITE;
 
@@ -49,8 +52,8 @@ struct object {
 		acceleration.y = force.y / mass;
 
 		// apply acceleration
-		velocity.x += acceleration.x;
-		velocity.y += acceleration.y;
+		velocity.x += acceleration.x * dt;
+		velocity.y += acceleration.y * dt;
 
 		x += velocity.x * dt;
 		y += velocity.y * dt;
